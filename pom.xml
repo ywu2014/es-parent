@@ -49,6 +49,8 @@
       <dom4j.version>1.6.1</dom4j.version>
       
       <jdk.version>1.6</jdk.version>
+      
+      <quartz.version>2.2.1</quartz.version>
   </properties>
   
   <dependencyManagement>
@@ -172,6 +174,13 @@
             <artifactId>shiro-spring</artifactId>
             <version>${shiro.version}</version>
         </dependency>
+        
+        <!-- quartz -->
+        <dependency>
+	        <groupId>org.quartz-scheduler</groupId>
+	        <artifactId>quartz</artifactId>
+	        <version>${quartz.version}</version>
+	    </dependency>
 		
 		<!-- spring -->
 		<dependency>
@@ -304,6 +313,11 @@
         <dependency>
         	<groupId>com.jiangnan</groupId>
         	<artifactId>es-authorization</artifactId>
+        	<version>${project.version}</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.jiangnan</groupId>
+        	<artifactId>es-schedule-quartz</artifactId>
         	<version>${project.version}</version>
         </dependency>
         <!-- <dependency>
