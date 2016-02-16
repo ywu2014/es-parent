@@ -50,7 +50,7 @@
       
       <jdk.version>1.6</jdk.version>
       
-      <quartz.version>2.2.1</quartz.version>
+      <quartz.version>2.1.7</quartz.version>
   </properties>
   
   <dependencyManagement>
