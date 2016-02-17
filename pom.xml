@@ -13,6 +13,8 @@
   	<module>../es-util</module>
   	<!-- <module>../es-foundation</module> -->
   	<module>../es-authorization</module>
+  	<module>../es-schedule-quartz</module>
+  	<module>../es-operationlog</module>
   	<module>../es-web</module>
   </modules>
 
@@ -318,6 +320,11 @@
         <dependency>
         	<groupId>com.jiangnan</groupId>
         	<artifactId>es-schedule-quartz</artifactId>
+        	<version>${project.version}</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.jiangnan</groupId>
+        	<artifactId>es-operationlog</artifactId>
         	<version>${project.version}</version>
         </dependency>
         <!-- <dependency>
